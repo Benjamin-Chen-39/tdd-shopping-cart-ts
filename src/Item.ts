@@ -1,7 +1,7 @@
 export default class Item {
-    private name: string;
-    private price: number;
-    private onSale: boolean;
+    public name: string;
+    public price: number;
+    public onSale: boolean;
 
     constructor(name: string, price: number, onSale: boolean) {
         this.name = name;
